@@ -7,7 +7,9 @@
   Gatsby 学习笔记
 </h1>
 
-## 创建网站
+## 第一部分：创建部署 yun 网站
+
+### 创建网站
 
 ```sh
 npx gatsby new
@@ -48,7 +50,7 @@ npm run develop
 [gatsby tutorial site](http://localhost:8000/)
 [graphql](http://localhost:8000/___graphql)
 
-## 在 github 上新建一个 reop
+### 在 github 上新建一个 reop
 
 [yun](https://github.com/joe62/yun)
 
@@ -62,6 +64,16 @@ git branch -M main
 git push -u origin main
 ```
 
-## 利用 Gatsby 云构建 yun 网站
+### 利用 Gatsby 云构建 yun 网站
 
 [Gatsby 云面板](https://www.gatsbyjs.com/dashboard/)
+
+![](https://www.gatsbyjs.com/static/0fd27b745c1de708f034eaf97c4416e0/60b3a/deployment-workflow.png)
+
+## 第二部分 React 组件的使用和样式
+
+```
+git add .
+git commit -m "Finished Gatsby Tutorial Part 2"
+git push
+```
