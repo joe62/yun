@@ -72,8 +72,41 @@ git push -u origin main
 
 ## 第二部分 React 组件的使用和样式
 
-```
+```sh
 git add .
 git commit -m "Finished Gatsby Tutorial Part 2"
 git push
 ```
+
+## 第三部分 利用插件添加功能
+
+```sh
+git add .
+git commit -m "Finished Gatsby Tutorial Part 3"
+git push
+```
+
+## 第四部分 利用 GraphQL 查询数据
+
+```jsx
+ query  {
+  allFile(filter: {extension: {eq: "mdx"}}) {
+    nodes {
+      name
+    }
+  }
+}
+```
+
+```sh
+git add .
+git commit -m "Finished Gatsby Tutorial Part 4"
+git push
+```
+
+## Indexs
+
+> `useStaticQuery` `gatsby-plugin-filesystem` `gatsby-source-contentful`
+> `Content management system (CMS)`
+
+![](https://www.gatsbyjs.com/static/e45422900475b86807bc002fb6863b85/10d53/data-layer.png)
