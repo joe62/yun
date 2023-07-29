@@ -116,7 +116,15 @@ git commit -m "Finished Gatsby Tutorial Part 5"
 git push
 ```
 
-## 第 6 部分：
+## 第 6 部分:以编程方式创建页面
+
+```sh
+git add .
+git commit -m "Finished Gatsby Tutorial Part 6"
+git push
+```
+
+## 第 6 部分
 
 ## Indexs
 
