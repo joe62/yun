@@ -104,9 +104,22 @@ git commit -m "Finished Gatsby Tutorial Part 4"
 git push
 ```
 
+## 第 5 部分:转换数据以使用 MDX
+
+`gatsby-plugin-mdx`
+
+`gatsby-remark-images` `gatsby-remark-prismjs` `gatsby-remark-autolink-headers`
+
+```sh
+git add .
+git commit -m "Finished Gatsby Tutorial Part 5"
+git push
+```
+
+## 第 6 部分：
+
 ## Indexs
 
-> `useStaticQuery` `gatsby-plugin-filesystem` `gatsby-source-contentful`
-> `Content management system (CMS)`
+> `useStaticQuery` `gatsby-plugin-filesystem` `gatsby-source-contentful` > `Content management system (CMS)`
 
 ![](https://www.gatsbyjs.com/static/e45422900475b86807bc002fb6863b85/10d53/data-layer.png)
