@@ -124,7 +124,7 @@ git commit -m "Finished Gatsby Tutorial Part 6"
 git push
 ```
 
-## 第 6 部分
+## 第 7 部分:从数据中添加动态图像
 
 ## Indexs
 
