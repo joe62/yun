@@ -4,130 +4,48 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby 学习笔记
+  Gatsby Minimal Starter
 </h1>
 
-## 第一部分：创建部署 yun 网站
+## 🚀 Quick start
 
-### 创建网站
+1.  **Create a Gatsby site.**
 
-```sh
-npx gatsby new
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-What would you like to call your site?
-√ · gatsby tutorial site
-What would you like to name the folder where your site will be created?
-√ gatsbyjs-learning/ gatsby-mdx-tailwindcss-app
-√ Will you be using JavaScript or TypeScript?
-· JavaScript
-√ Will you be using a CMS?
-· No (or I'll add it later)
-√ Would you like to install a styling system?
-· Tailwind CSS
-√ Would you like to install additional features with other plugins?
-· Add responsive images
-· Add an automatic sitemap
-· Generate a manifest file
-· Add Markdown and MDX support
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
+2.  **Start developing.**
 
-Thanks! Here's what we'll now do:
+    Navigate into your new site’s directory and start it up.
 
-    Create a new Gatsby site in the folder gatsby-mdx-tailwindcss-app
-    Get you set up to use Tailwind CSS for styling your site
-    Install gatsby-plugin-image, gatsby-plugin-sitemap, gatsby-plugin-manifest, gatsby-plugin-mdx,
-gatsby-transformer-remark
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-```
+3.  **Open the code and start customizing!**
 
-```sh
-cd gatsby-mdx-tailwindcss-app
-npm run develop
-```
+    Your site is now running at http://localhost:8000!
 
-`E:\temp2023\gatsbyjs-learning\gatsby-mdx-tailwindcss-app`
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-[gatsby tutorial site](http://localhost:8000/)
-[graphql](http://localhost:8000/___graphql)
+4.  **Learn more**
 
-### 在 github 上新建一个 reop
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-[yun](https://github.com/joe62/yun)
+## 🚀 Quick start (Netlify)
 
-![](https://www.gatsbyjs.com/static/bf74830c88d3f8b0287b58cf397be992/18539/new-repo-button.png)
+Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
-![](https://www.gatsbyjs.com/static/94ec685d2adefdf4d2aac5b3364acba9/3d68f/new-repo-options.png)
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
 
-```sh
-git remote add origin https://github.com/joe62/yun.git
-git branch -M main
-git push -u origin main
-```
-
-### 利用 Gatsby 云构建 yun 网站
-
-[Gatsby 云面板](https://www.gatsbyjs.com/dashboard/)
-
-![](https://www.gatsbyjs.com/static/0fd27b745c1de708f034eaf97c4416e0/60b3a/deployment-workflow.png)
-
-## 第二部分 React 组件的使用和样式
-
-```sh
-git add .
-git commit -m "Finished Gatsby Tutorial Part 2"
-git push
-```
-
-## 第三部分 利用插件添加功能
-
-```sh
-git add .
-git commit -m "Finished Gatsby Tutorial Part 3"
-git push
-```
-
-## 第四部分 利用 GraphQL 查询数据
-
-```jsx
- query  {
-  allFile(filter: {extension: {eq: "mdx"}}) {
-    nodes {
-      name
-    }
-  }
-}
-```
-
-```sh
-git add .
-git commit -m "Finished Gatsby Tutorial Part 4"
-git push
-```
-
-## 第 5 部分:转换数据以使用 MDX
-
-`gatsby-plugin-mdx`
-
-`gatsby-remark-images` `gatsby-remark-prismjs` `gatsby-remark-autolink-headers`
-
-```sh
-git add .
-git commit -m "Finished Gatsby Tutorial Part 5"
-git push
-```
-
-## 第 6 部分:以编程方式创建页面
-
-```sh
-git add .
-git commit -m "Finished Gatsby Tutorial Part 6"
-git push
-```
-
-## 第 7 部分:从数据中添加动态图像
-
-## Indexs
-
-> `useStaticQuery` `gatsby-plugin-filesystem` `gatsby-source-contentful` > `Content management system (CMS)`
-
-![](https://www.gatsbyjs.com/static/e45422900475b86807bc002fb6863b85/10d53/data-layer.png)
+https://www.gatsbyjs.com/docs/tutorial/getting-started/part-6/
