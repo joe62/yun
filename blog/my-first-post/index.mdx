@@ -15,3 +15,25 @@ Some of my **favorite** things are:
 * Petting dogs
 * Singing
 * Eating potato-based foods
+
+```diff-javascript
+// In your gatsby-config.js
+plugins: [
+  {
+
+    -resolve: `gatsby-transformer-remark`,
+    +resolve: `gatsby-plguin-mdx`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
+```
+
+```b
+npm install --save prismjs
+```
+
+## End

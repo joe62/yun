@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@deckdeckgo/highlight-code": "^4.4.0",
     "@mdx-js/react": "^2.3.0",
     "autoprefixer": "^10.4.14",
     "gatsby": "^5.11.0",
@@ -24,10 +25,11 @@
     "gatsby-plugin-postcss": "^6.11.0",
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-plugin-sitemap": "^6.11.0",
+    "gatsby-remark-prismjs": "^7.11.0",
     "gatsby-source-filesystem": "^5.11.0",
-    "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "postcss": "^8.4.27",
+    "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.3.3"
