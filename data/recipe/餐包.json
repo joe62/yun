@@ -1,0 +1,105 @@
+{
+  "name": "餐包",
+  "author": "Joe",
+  "quantity": 18,
+  "notes": "200°C风炉烤12分钟",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 580,
+          "name": "高筋面粉",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 320,
+          "name": "全指牛奶",
+          "type": "dairy",
+          "preset": 4,
+          "protein": 3.5,
+          "fat": 3.5,
+          "carbs": 4.8,
+          "sugars": 4.8,
+          "ash": 0.7,
+          "salt": 0,
+          "hydration": 87.5,
+          "bakers_pct": 55.2
+        },
+        {
+          "weight": 45,
+          "name": "细砂糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 7.8
+        },
+        {
+          "weight": 7,
+          "name": "无碘盐",
+          "type": "salt",
+          "bakers_pct": 1.2
+        },
+        {
+          "weight": 12,
+          "name": "新鲜酵母",
+          "type": "yeast",
+          "bakers_pct": 2.1
+        },
+        {
+          "weight": 70,
+          "name": "无盐黄油",
+          "type": "dairy",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 12.1
+        },
+        {
+          "weight": 30,
+          "name": "鲜奶油",
+          "type": "dairy",
+          "preset": 8,
+          "protein": 2.1,
+          "fat": 33,
+          "carbs": 3.2,
+          "sugars": 3.2,
+          "ash": 0.5,
+          "salt": 0,
+          "hydration": 61.2,
+          "bakers_pct": 5.2
+        },
+        {
+          "weight": 25,
+          "name": "炼乳",
+          "type": "dairy",
+          "preset": -1,
+          "protein": 8,
+          "fat": 8,
+          "carbs": 57,
+          "sugars": 57,
+          "ash": 0.5,
+          "salt": 0,
+          "hydration": 27,
+          "bakers_pct": 4.3
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/39q9"
+}

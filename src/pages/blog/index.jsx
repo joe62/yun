@@ -4,7 +4,6 @@ import Seo from '../../components/seo'
 import { Link, graphql } from 'gatsby'
 
 const Blog = ({data}) => {
-  console.log(data)
   return (
     <Layout pageTitle={`我的博客文章`}>
        {

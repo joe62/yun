@@ -1,0 +1,96 @@
+{
+  "name": "自然发酵义利果子面包",
+  "author": "Joe",
+  "quantity": 2,
+  "notes": "https://m.maigoo.com/goomai/214459.html\n180°C 烤25分钟\n果仁: 苹果脯、葡萄干、核桃仁、糖冬瓜条、糖青梅",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 250,
+          "name": "高筋面粉",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 100,
+          "name": "水",
+          "type": "fluid",
+          "bakers_pct": 40
+        },
+        {
+          "weight": 40,
+          "name": "全蛋",
+          "type": "egg",
+          "preset": 0,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 1.1,
+          "sugars": 1.1,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 75,
+          "bakers_pct": 16
+        },
+        {
+          "weight": 40,
+          "name": "细砂糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 16
+        },
+        {
+          "weight": 2.5,
+          "name": "salt",
+          "type": "salt",
+          "bakers_pct": 1
+        },
+        {
+          "weight": 50,
+          "name": "酵头",
+          "type": "starter",
+          "hydration": 100,
+          "bakers_pct": 20
+        },
+        {
+          "weight": 30,
+          "name": "无盐黄油",
+          "type": "dairy",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 12
+        },
+        {
+          "weight": 14,
+          "name": "全脂奶粉",
+          "type": "extra",
+          "bakers_pct": 5.6
+        },
+        {
+          "weight": 50,
+          "name": "果仁",
+          "type": "extra",
+          "bakers_pct": 20
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/39s7"
+}

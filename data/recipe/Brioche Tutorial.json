@@ -1,0 +1,97 @@
+{
+  "name": "Brioche Tutorial",
+  "author": "&lt;Author&gt;",
+  "quantity": 1,
+  "notes": "",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 340,
+          "name": "bread flour",
+          "type": "flour",
+          "bakers_pct": 85
+        },
+        {
+          "weight": 60,
+          "name": "all-purpose flour",
+          "type": "flour",
+          "bakers_pct": 15
+        },
+        {
+          "weight": 50,
+          "name": "whole milk (3.5%)",
+          "type": "dairy",
+          "preset": 4,
+          "protein": 3.5,
+          "fat": 3.5,
+          "carbs": 4.8,
+          "sugars": 4.8,
+          "ash": 0.7,
+          "salt": 0,
+          "hydration": 87.5,
+          "bakers_pct": 12.5
+        },
+        {
+          "weight": 220,
+          "name": "egg, whole",
+          "type": "egg",
+          "preset": 0,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 1.1,
+          "sugars": 1.1,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 75,
+          "bakers_pct": 55
+        },
+        {
+          "weight": 200,
+          "name": "butter, unsalted",
+          "type": "dairy",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 50
+        },
+        {
+          "weight": 6.3,
+          "name": "yeast",
+          "type": "yeast",
+          "bakers_pct": 1.6
+        },
+        {
+          "weight": 8.4,
+          "name": "salt",
+          "type": "salt",
+          "bakers_pct": 2.1
+        },
+        {
+          "weight": 40,
+          "name": "sugar",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 10
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/3b50"
+}

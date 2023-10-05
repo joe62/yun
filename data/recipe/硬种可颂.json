@@ -1,0 +1,110 @@
+{
+  "name": "硬种可颂",
+  "author": "Joe",
+  "quantity": 40,
+  "notes": "1、黄油片 18*17 2块\n2、面团 895克 2块\n3、第1次 4折，第2次 3折\n4、最终每份面团尺寸为90*23\n5、按8cm底边分割三角形\n6、最终发酵10小时左右，温度小于26°C\n7、风炉200°C烤6分钟 + 180°C烤10分钟\n",
+  "url": "",
+  "sections": [
+    {
+      "name": "原料",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 820,
+          "type": "flour",
+          "name": "T55面粉",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 430,
+          "type": "fluid",
+          "name": "水",
+          "bakers_pct": 52.4
+        },
+        {
+          "weight": 20,
+          "type": "salt",
+          "name": "盐",
+          "bakers_pct": 2.4
+        },
+        {
+          "weight": 110,
+          "type": "dairy",
+          "name": "黄油",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 13.4
+        },
+        {
+          "weight": 110,
+          "type": "sugar",
+          "name": "砂糖",
+          "preset": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "hydration": 0,
+          "bakers_pct": 13.4
+        }
+      ]
+    },
+    {
+      "name": "硬酵头",
+      "type": "preferment",
+      "ingredients": [
+        {
+          "weight": 112,
+          "type": "flour",
+          "name": "面粉",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 112,
+          "type": "starter",
+          "name": "starter",
+          "hydration": 100,
+          "bakers_pct": 100
+        },
+        {
+          "weight": 56,
+          "type": "fluid",
+          "name": "水",
+          "bakers_pct": 50
+        },
+        {
+          "weight": 20,
+          "name": "砂糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 17.9
+        }
+      ]
+    },
+    {
+      "ingredients": [
+        {
+          "weight": 0,
+          "name": "无盐黄油",
+          "type": "extra",
+          "bakers_pct": 0
+        }
+      ],
+      "name": "层压黄油",
+      "type": "misc"
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/37hs"
+}

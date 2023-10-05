@@ -13,42 +13,10 @@ module.exports = {
     options: {
       "icon": "src/images/icon.png"
     }
-  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp",{
+  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp",`gatsby-transformer-json`,{
     resolve: `gatsby-plugin-mdx`,
     options: {
-      extensions: [".mdx", ".md"],
-      gatsbyRemarkPlugins: [
-        {
-          resolve: `gatsby-remark-prismjs`,
-          options:{
-            classPrefix: "language-",
-            inlineCodeMarker: null,
-            aliases: {},
-            showLineNumbers: true,
-            noInlineHighlight: false,
-            languageExtensions: [
-              {
-                language: "superscript",
-                extend: "javascript",
-                definition: {
-                  superscript_types: /(SuperType)/,
-                },
-                insertBefore: {
-                  function: {
-                    superscript_keywords: /(superif|superelse)/,
-                  },
-                },
-              },
-            ],
-            prompt: {
-              user: "root",
-              host: "localhost",
-              global: false,
-            },
-            escapeEntities: {},
-          }
-        },
-      ],
+      gatsbyRemarkPlugins: ["gatsby-remark-code-buttons","gatsby-remark-prismjs"],
     },
   },
   {
@@ -56,6 +24,16 @@ module.exports = {
     options: {
       "name": "blog",
       "path": `${__dirname}/blog`
+    }
+  },{
+    resolve:`gatsby-source-filesystem`,
+    options: {
+      path:`${__dirname}/data/recipe`
+    }
+  },{
+    resolve:`gatsby-source-filesystem`,
+    options: {
+      path:`${__dirname}/data/ingrType`
     }
   }]
 };

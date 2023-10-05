@@ -1,0 +1,72 @@
+{
+  "name": "酸种可颂",
+  "author": "Joe",
+  "quantity": 36,
+  "notes": "",
+  "url": "",
+  "sections": [
+    {
+      "name": "原料",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 820,
+          "type": "flour",
+          "name": "T55面粉",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 346,
+          "type": "fluid",
+          "name": "水",
+          "bakers_pct": 42.2
+        },
+        {
+          "weight": 16,
+          "type": "salt",
+          "name": "盐",
+          "bakers_pct": 2
+        },
+        {
+          "weight": 110,
+          "type": "dairy",
+          "name": "黄油",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 13.4
+        },
+        {
+          "weight": 110,
+          "type": "sugar",
+          "name": "砂糖",
+          "preset": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "hydration": 0,
+          "bakers_pct": 13.4
+        },
+        {
+          "weight": 300,
+          "name": "酵头",
+          "type": "starter",
+          "hydration": 100,
+          "bakers_pct": 36.6
+        },
+        {
+          "weight": 500,
+          "name": "层压黄油",
+          "type": "extra",
+          "bakers_pct": 61
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/3ang"
+}

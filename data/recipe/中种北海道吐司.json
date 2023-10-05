@@ -1,0 +1,139 @@
+{
+  "name": "中种北海道吐司",
+  "author": "Joe",
+  "quantity": 2,
+  "notes": "柔软如棉花糖般的100%中种北海道吐司\n1、中种面团中所有材料揉至光滑 + 发酵30分钟 + 冷藏发酵12~17小时\n2、主面团：奶粉+蛋白+糖 + 中种面团 + 揉至8分筋 + 黄油 + 揉至完全融合 + 盐 + 揉至10分钟筋（完全扩展或手套膜）+ 静置30分钟\n3、6等分滚圆+静置20分钟 + 擀卷入模\n4、32°C温度 + 85%湿度  + 发酵2小时至9成满 + 刷全蛋液\n5、210°C预热， 180°C烤35分钟（上色后加盖锡纸)\n\n\nhttps://mp.weixin.qq.com/s/cRQc94W0gQGEJDtJO5TBRQ\n",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 500,
+          "name": "高筋面粉（中种）",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 180,
+          "name": "全脂牛奶（中种）",
+          "type": "dairy",
+          "preset": 4,
+          "protein": 3.5,
+          "fat": 3.5,
+          "carbs": 4.8,
+          "sugars": 4.8,
+          "ash": 0.7,
+          "salt": 0,
+          "hydration": 87.5,
+          "bakers_pct": 36
+        },
+        {
+          "weight": 160,
+          "name": "淡奶油（中种）",
+          "type": "dairy",
+          "preset": 8,
+          "protein": 2.1,
+          "fat": 33,
+          "carbs": 3.2,
+          "sugars": 3.2,
+          "ash": 0.5,
+          "salt": 0,
+          "hydration": 61.2,
+          "bakers_pct": 32
+        },
+        {
+          "weight": 40,
+          "name": "蛋白（中种）",
+          "type": "egg",
+          "preset": 2,
+          "protein": 11,
+          "fat": 0.2,
+          "carbs": 0.7,
+          "sugars": 0.7,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 89,
+          "bakers_pct": 8
+        },
+        {
+          "weight": 20,
+          "name": "砂糖（中种）",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 4
+        },
+        {
+          "weight": 4,
+          "name": "干酵母（中种）",
+          "type": "yeast",
+          "bakers_pct": 0.8
+        },
+        {
+          "weight": 30,
+          "name": "奶粉",
+          "type": "extra",
+          "bakers_pct": 6
+        },
+        {
+          "weight": 55,
+          "name": "蛋白",
+          "type": "egg",
+          "preset": 2,
+          "protein": 11,
+          "fat": 0.2,
+          "carbs": 0.7,
+          "sugars": 0.7,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 89,
+          "bakers_pct": 11
+        },
+        {
+          "weight": 55,
+          "name": "砂糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 11
+        },
+        {
+          "weight": 25,
+          "type": "dairy",
+          "name": "无盐黄油",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 5
+        },
+        {
+          "weight": 6,
+          "name": "盐",
+          "type": "salt",
+          "bakers_pct": 1.2
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/38i0"
+}

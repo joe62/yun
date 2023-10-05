@@ -1,0 +1,121 @@
+{
+  "name": "心形椰蓉面包36个",
+  "author": "kisskiki2020",
+  "quantity": 36,
+  "notes": "https://www.bilibili.com/video/BV1Lt4y1Y7D6/?vd_source=3fc5d05e26149c059ee6fbb483360f1f\n\n每个面包：面团41 + 椰蓉馅12.4 = 53克\n",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 810,
+          "name": "高筋面粉",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 80,
+          "name": "鸡蛋",
+          "type": "egg",
+          "preset": 0,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 1.1,
+          "sugars": 1.1,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 75,
+          "bakers_pct": 9.9
+        },
+        {
+          "weight": 425,
+          "name": "牛奶",
+          "type": "dairy",
+          "preset": 4,
+          "protein": 3.5,
+          "fat": 3.5,
+          "carbs": 4.8,
+          "sugars": 4.8,
+          "ash": 0.7,
+          "salt": 0,
+          "hydration": 87.5,
+          "bakers_pct": 52.5
+        },
+        {
+          "weight": 80,
+          "name": "细砂糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 9.9
+        },
+        {
+          "weight": 8,
+          "name": "盐",
+          "type": "salt",
+          "bakers_pct": 1
+        },
+        {
+          "weight": 12,
+          "name": "酵母",
+          "type": "yeast",
+          "bakers_pct": 1.5
+        },
+        {
+          "weight": 60,
+          "name": "黄油",
+          "type": "dairy",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 7.4
+        }
+      ]
+    },
+    {
+      "ingredients": [
+        {
+          "weight": 160,
+          "name": "椰蓉",
+          "type": "extra",
+          "bakers_pct": 19.8
+        },
+        {
+          "weight": 100,
+          "name": "黄油",
+          "type": "extra",
+          "bakers_pct": 12.3
+        },
+        {
+          "weight": 80,
+          "name": "细砂糖",
+          "type": "extra",
+          "bakers_pct": 9.9
+        },
+        {
+          "weight": 100,
+          "name": "鸡蛋",
+          "type": "extra",
+          "bakers_pct": 12.3
+        }
+      ],
+      "name": "椰蓉馅料",
+      "type": "soaker"
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/34a4"
+}

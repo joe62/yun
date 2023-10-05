@@ -1,0 +1,124 @@
+{
+  "name": "酸种生吐司",
+  "author": "MusicBaking",
+  "quantity": 2,
+  "notes": "https://youtu.be/jglsLEllE_Y\nRecipe \n\nRefresh starter                         \nFeed 15g: 15g:15g\n(Starter: Water :Bread flour)\n\nSweet Levain \n25g active starter \n34g Water \n75g Bread flour \n13g sugar \n\nMain dough \n250g Bread flour \n35g sugar \n4g salt \nAll the Sweet levain\n95g milk \n1egg \n40g Butter \n1egg (egg Wash)\n\nFirst proofing 2 hours @28C \nFinal proofing took me 4 hours @32C \n\nBake 180C for 37min ( adjust to your oven)  \n\n\n食谱\n喂养酸种\n15g :15g: 15g \n(酸种：水：高筋面粉）\n\n甜酸种\n25g 酸种\n34g 水\n75g 高筋面粉\n13g 糖\n\n主面团\n250g 高筋面粉\n35g 糖\n4g 盐\n全部甜酸种\n95g 牛奶\n1 颗蛋\n40g 奶油\n1颗蛋 （刷表面）\n\n第一次发酵 2小时@28度\n最后发酵 4小时@32度\n\n烘烤 180C 37 分钟 （依照个人烤箱）\n",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 250,
+          "name": "面包粉",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 35,
+          "name": "糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 14
+        },
+        {
+          "weight": 4,
+          "name": "盐",
+          "type": "salt",
+          "bakers_pct": 1.6
+        },
+        {
+          "weight": 50,
+          "name": "鸡蛋",
+          "type": "egg",
+          "preset": 0,
+          "protein": 13,
+          "fat": 11,
+          "carbs": 1.1,
+          "sugars": 1.1,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 75,
+          "bakers_pct": 20
+        },
+        {
+          "weight": 95,
+          "name": "牛奶",
+          "type": "dairy",
+          "preset": 4,
+          "protein": 3.5,
+          "fat": 3.5,
+          "carbs": 4.8,
+          "sugars": 4.8,
+          "ash": 0.7,
+          "salt": 0,
+          "hydration": 87.5,
+          "bakers_pct": 38
+        },
+        {
+          "weight": 40,
+          "name": "无盐黄油",
+          "type": "dairy",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 16
+        }
+      ]
+    },
+    {
+      "ingredients": [
+        {
+          "weight": 75,
+          "name": "面包粉",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 34,
+          "name": "水",
+          "type": "fluid",
+          "bakers_pct": 45.3
+        },
+        {
+          "weight": 13,
+          "name": "糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 17.3
+        },
+        {
+          "weight": 25,
+          "name": "酸种",
+          "type": "starter",
+          "hydration": 100,
+          "bakers_pct": 33.3
+        }
+      ],
+      "name": "甜硬种",
+      "type": "preferment"
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/33k5"
+}

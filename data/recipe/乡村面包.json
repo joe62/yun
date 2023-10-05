@@ -1,0 +1,42 @@
+{
+  "name": "乡村面包",
+  "author": "Joe",
+  "quantity": 1,
+  "notes": "",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 250,
+          "type": "flour",
+          "name": "通用面粉",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 200,
+          "name": "水",
+          "type": "fluid",
+          "bakers_pct": 80
+        },
+        {
+          "weight": 50,
+          "name": "酵种",
+          "type": "starter",
+          "hydration": 100,
+          "bakers_pct": 20
+        },
+        {
+          "weight": 5,
+          "type": "salt",
+          "name": "盐",
+          "bakers_pct": 2
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/3adr"
+}

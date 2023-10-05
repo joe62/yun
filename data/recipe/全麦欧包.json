@@ -1,0 +1,90 @@
+{
+  "name": "全麦欧包",
+  "author": "Joe",
+  "quantity": 2,
+  "notes": "250°C 预热 每隔1分钟加蒸汽5秒，一共加三次蒸汽。加完蒸汽后218°C烤40分钟",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 480,
+          "name": "通用面粉",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 384,
+          "name": "水",
+          "type": "fluid",
+          "bakers_pct": 80
+        },
+        {
+          "weight": 12,
+          "name": "salt",
+          "type": "salt",
+          "bakers_pct": 2.5
+        }
+      ]
+    },
+    {
+      "ingredients": [
+        {
+          "weight": 30,
+          "name": "全麦面粉",
+          "type": "flour",
+          "bakers_pct": 50
+        },
+        {
+          "weight": 30,
+          "name": "全黑麦面粉",
+          "type": "flour",
+          "bakers_pct": 50
+        },
+        {
+          "weight": 47,
+          "name": "水",
+          "type": "fluid",
+          "bakers_pct": 78.3
+        },
+        {
+          "weight": 12,
+          "name": "starter",
+          "type": "starter",
+          "hydration": 100,
+          "bakers_pct": 20
+        }
+      ],
+      "name": "80%酵种",
+      "type": "preferment"
+    },
+    {
+      "ingredients": [
+        {
+          "weight": 90,
+          "name": "全麦面粉",
+          "type": "flour",
+          "bakers_pct": 75
+        },
+        {
+          "weight": 30,
+          "name": "全黑麦面粉",
+          "type": "flour",
+          "bakers_pct": 25
+        },
+        {
+          "weight": 96,
+          "name": "fluid",
+          "type": "fluid",
+          "bakers_pct": 80
+        }
+      ],
+      "name": "全麦水合",
+      "type": "preferment"
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/3713"
+}

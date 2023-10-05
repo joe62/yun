@@ -1,0 +1,54 @@
+{
+  "name": "全麦黑麦欧包(30%)",
+  "author": "Joe",
+  "quantity": 2,
+  "notes": "",
+  "url": "",
+  "sections": [
+    {
+      "name": "主面团",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 420,
+          "name": "通用面粉",
+          "type": "flour",
+          "bakers_pct": 70
+        },
+        {
+          "weight": 120,
+          "name": "全麦面粉(自磨)",
+          "type": "flour",
+          "bakers_pct": 20
+        },
+        {
+          "weight": 60,
+          "name": "黑麦面粉(自磨)",
+          "type": "flour",
+          "bakers_pct": 10
+        },
+        {
+          "weight": 468,
+          "name": "水",
+          "type": "fluid",
+          "bakers_pct": 78
+        },
+        {
+          "weight": 12,
+          "name": "盐",
+          "type": "salt",
+          "bakers_pct": 2
+        },
+        {
+          "weight": 120,
+          "name": "酵头",
+          "type": "starter",
+          "hydration": 78,
+          "bakers_pct": 20
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/379i"
+}

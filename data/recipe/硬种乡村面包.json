@@ -1,0 +1,42 @@
+{
+  "name": "硬种乡村面包",
+  "author": "Joe",
+  "quantity": 1,
+  "notes": "",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 400,
+          "name": "通用面粉",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 325,
+          "name": "水",
+          "type": "fluid",
+          "bakers_pct": 81.3
+        },
+        {
+          "weight": 80,
+          "name": "硬酵种",
+          "type": "starter",
+          "hydration": 55,
+          "bakers_pct": 20
+        },
+        {
+          "weight": 8,
+          "name": "盐",
+          "type": "salt",
+          "bakers_pct": 2
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/2rsi"
+}

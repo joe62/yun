@@ -1,0 +1,131 @@
+{
+  "name": "日式生吐司（无淡奶油）",
+  "author": "Joe",
+  "quantity": 2,
+  "notes": "210°C 烤47分钟\n157克*3 * 2\n\n【腾讯文档】日式生吐司\nhttps://docs.qq.com/sheet/DWHNSak5sbHBLbHpF?tab=70hwjv\n",
+  "url": "",
+  "sections": [
+    {
+      "name": "Dough",
+      "type": "dough",
+      "ingredients": [
+        {
+          "weight": 465,
+          "name": "高筋面粉（中种）",
+          "type": "flour",
+          "bakers_pct": 100
+        },
+        {
+          "weight": 323,
+          "name": "全脂牛奶（中种）",
+          "type": "dairy",
+          "preset": 4,
+          "protein": 3.5,
+          "fat": 3.5,
+          "carbs": 4.8,
+          "sugars": 4.8,
+          "ash": 0.7,
+          "salt": 0,
+          "hydration": 87.5,
+          "bakers_pct": 69.5
+        },
+        {
+          "weight": 3,
+          "name": "干酵母（中种）",
+          "type": "yeast",
+          "bakers_pct": 0.6
+        },
+        {
+          "weight": 3,
+          "name": "盐（中种）",
+          "type": "salt",
+          "bakers_pct": 0.6
+        },
+        {
+          "weight": 18,
+          "name": "砂糖（中种）",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 3.9
+        },
+        {
+          "weight": 2,
+          "name": "干酵母粉",
+          "type": "yeast",
+          "bakers_pct": 0.4
+        },
+        {
+          "weight": 4,
+          "name": "盐",
+          "type": "salt",
+          "bakers_pct": 0.9
+        },
+        {
+          "weight": 27,
+          "name": "砂糖",
+          "type": "sugar",
+          "preset": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 100,
+          "sugars": 100,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 0,
+          "bakers_pct": 5.8
+        },
+        {
+          "weight": 9,
+          "name": "蜂蜜",
+          "type": "sugar",
+          "preset": 1,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 82,
+          "sugars": 82,
+          "ash": 0,
+          "salt": 0,
+          "hydration": 18,
+          "bakers_pct": 1.9
+        },
+        {
+          "weight": 65,
+          "type": "dairy",
+          "name": "无盐黄油",
+          "preset": 14,
+          "protein": 0.5,
+          "fat": 81.4,
+          "carbs": 0.6,
+          "sugars": 0.6,
+          "ash": 1,
+          "salt": 0,
+          "hydration": 16.5,
+          "bakers_pct": 14
+        },
+        {
+          "weight": 23,
+          "type": "dairy",
+          "name": "炼乳",
+          "preset": -1,
+          "protein": 7.7,
+          "fat": 8,
+          "carbs": 56.5,
+          "sugars": 56,
+          "ash": 0,
+          "salt": 0.13,
+          "hydration": 35,
+          "bakers_pct": 4.9
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "permanent_url": "https://fgbc.dk/38ht"
+}

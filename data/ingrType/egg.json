@@ -1,0 +1,34 @@
+{
+  "name":"eggs",
+  "sections":[{
+    "id": "egg_type_whole",
+    "preset": 0,
+    "protein": 13,
+    "fat": 11,
+    "carbs": 1.1,
+    "sugars": 1.1,
+    "ash": 1,
+    "salt": 0,
+    "hydration": 75
+  }, {
+    "id": "egg_type_yolk",
+    "preset": 1,
+    "protein": 17,
+    "fat": 33,
+    "carbs": 3.6,
+    "sugars": 0.6,
+    "ash": 1,
+    "salt": 0,
+    "hydration": 49
+  }, {
+    "id": "egg_type_white",
+    "preset": 2,
+    "protein": 11,
+    "fat": 0.2,
+    "carbs": 0.7,
+    "sugars": 0.7,
+    "ash": 0,
+    "salt": 0,
+    "hydration": 89
+  }]
+}

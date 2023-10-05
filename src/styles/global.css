@@ -18,6 +18,13 @@
     ul {
         @apply list-disc; 
     }
-
+    html {
+        @apply text-gray-800;
+      } 
     
+}
+
+.gatsby-code-button-icon {
+   padding-top: 10px;
+    fill: lightgray;
 }
