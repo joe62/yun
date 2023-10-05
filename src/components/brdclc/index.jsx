@@ -78,7 +78,7 @@ const BrdCalc = () => {
 
 
   return (
-    <>
+    <div className=" p-4  text-[#34321c]  font-[Avenir_Next,Avenir,sans-serif] mx-auto my-[8%] bg-[#f7f7f0] leading-5  max-w-[480px] min-w-[360px] ">
       <header className=" text-center">
         <div className=" bg-orange-600  inline-block w-[72px] h-[72px] rounded-full">
           <img className=" w-12 ml-3 mt-4  " src={LogoIcon} alt="" srcSet="" />
@@ -95,22 +95,48 @@ const BrdCalc = () => {
         ))}
       </div>
       <div
-        className="mt-6  clearfix after:block after:content-[' '] after:clear-both"
+        className=" mt-4  clearfix after:block after:content-[' '] after:clear-both "
         
       >
      
         <button 
-        className=" ingredients-button flex float-left w-[47%] bg-white   py-2 px-8 font-semibold  rounded border border-solid border-gray-700 outline-none"
+        className=" ingredients-button   flex float-left w-[47%]    py-2 px-12 font-semibold  rounded border border-solid border-gray-700 outline-none"
           type="button"
           onClick={() => setShowModal(true)}
           >添加/移除配料</button>
           <button 
-        className=" ml-4 ingredients-button  flex float-right w-[47%] bg-white  py-2 px-8 font-semibold  rounded border border-solid border-gray-700"
+        className=" ml-4 ingredients-button  flex float-right w-[47%]  py-2 px-12 font-semibold  rounded border border-solid border-gray-700"
           type="button"
           onClick={() => BreadCalcultor.copyURLToClipboard()}
           >复制配方链接</button>
       </div>
-
+      <div className="mt-6  clearfix after:block after:content-[' '] after:clear-both">
+      <div className=" float-left w-[49%] text-left ">
+            <p>
+            <strong >面团重量: </strong> <span  className=" cursor-pointer border-b-2 border-solid border-orange-700" 
+             title="单击可调整面团重量"
+             onClick={()=>{
+              BreadCalcultor.updateDoughWeight(ingredients)
+              setIngredients({...ingredients})
+              BreadCalcultor.updateValues(ingredients)
+            }}>{ingredients&&BreadCalcultor.getDoughWeigh(ingredients)} g</span>
+            </p>
+           
+            
+          </div>
+          <div className=" float-right w-[49%] text-right">
+            <p>
+            <strong >面团含水量: </strong> <span className=" cursor-pointer border-b-2 border-solid border-orange-700" 
+              title="单击可调整面团含水量"
+              onClick={()=>{
+                BreadCalcultor.updateDoughHydration(ingredients)
+                setIngredients({...ingredients})
+                BreadCalcultor.updateValues(ingredients)
+            }}>{ingredients&&BreadCalcultor.getDoughHydration(ingredients)} %</span>
+            </p>
+           </div>
+      </div>
+      
       {showModal&& (
         <ModalNew setOpenModal={setShowModal}>
  { Object.entries(ingredients).map(([key,obj], i) => (
@@ -119,27 +145,7 @@ const BrdCalc = () => {
                 ))}
         </ModalNew>
       )}
-      {
-        
-        <div>
-          <br />
-          <p>
-            <strong>面团重量: </strong> <span className=" cursor-pointer border-b-2 border-solid border-orange-700" 
-             onClick={()=>{
-              BreadCalcultor.updateDoughWeight(ingredients)
-              setIngredients({...ingredients})
-              BreadCalcultor.updateValues(ingredients)
-            }}>{ingredients&&BreadCalcultor.getDoughWeigh(ingredients)} g    </span>
-            <strong>面团含水量: </strong> <span className=" cursor-pointer border-b-2 border-solid border-orange-700" onClick={()=>{
-              BreadCalcultor.updateDoughHydration(ingredients)
-              setIngredients({...ingredients})
-              BreadCalcultor.updateValues(ingredients)
-            }}>{ingredients&&BreadCalcultor.getDoughHydration(ingredients)} %</span> 
-          </p>
-        </div>
-      }
-      
-    </>
+    </div>
   );
 };
 
