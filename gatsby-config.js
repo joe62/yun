@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     joe:`abc`,
     date:`2023-08-12`,
-    title: `YUN APP1`,
+    title: ``,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
