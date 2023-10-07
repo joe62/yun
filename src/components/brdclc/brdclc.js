@@ -1,9 +1,9 @@
  const BreadCalcultor={
   doughTotalWeigh:0,
    flourTotalWeight:0,
-   
+   decimals:0,
    IngredientsDefaults:{
-    flour_purpose:{  title: "通用面粉",type:'flour',hydration:0,weight:210,pct:70,volume:2, step:1,oneVolume:125,unit:"cup", checked: true,disabled: true},
+    flour_purpose:{  title: "面粉",type:'flour',hydration:0,weight:210,pct:70,volume:2, step:1,oneVolume:125,unit:"cup", checked: true,disabled: true},
     flour_wheat:{  title: "全麦粉",type:'flour',hydration:0,weight:60,pct:20,volume:2, step:1,oneVolume:125,unit:"cup", checked: true,disabled: false},
     flour_rye:{  title: "黑麦粉",type:'flour',hydration:0,weight:30,pct:10,volume:2, step:1,oneVolume:125,unit:"cup", checked: true,disabled: false},
     water:{  title: "水",type:'fluid',hydration:100, weight:240,pct:80,volume:0.85,step:1,oneVolume:235.59,unit:"cup", checked: true,disabled:true },
@@ -22,7 +22,9 @@
     yolk:{  title: "蛋黄" ,type:'egg',hydration:49,weight: 25, pct: 10, volume: 0.5, step:1,oneVolume:50,unit: "large egg", checked: false,disabled: false},
     white:{  title: "蛋白" ,type:'egg',hydration:89,weight: 25, pct: 10, volume: 0.5, step:1,oneVolume:50,unit: "large egg", checked: false,disabled: false},
     condensedMilk:{  title: "炼乳",type:'sugar',hydration:27,sugarPct:57,weight: 13, pct: 5, volume: 0.04, step:1,oneVolume:340,unit: "cup", checked: false,disabled: false},
-    honey:{  title: "蜂蜜",type:'sugar',hydration:18,sugarPct:82,weight: 13, pct: 5, volume: 0.04, step:1,oneVolume:340,unit: "cup", checked: false,disabled: false}
+    honey:{  title: "蜂蜜",type:'sugar',hydration:18,sugarPct:82,weight: 13, pct: 5, volume: 0.04, step:1,oneVolume:340,unit: "cup", checked: false,disabled: false},
+    extra1:{  title: "层压黄油" ,type:'extra',hydration:0,weight: 250, pct: 61, volume: 1.1, step:1,oneVolume:227,unit: "cup", checked: false,disabled: false},
+    extra:{  title: "其它" ,type:'extra',hydration:0,weight: 0, pct: 10, volume: 0, step:1,oneVolume:0,unit: "cup", checked: false,disabled: false},
   },
   toNumber: function (value) {
     if (typeof value === "number") {
@@ -31,9 +33,9 @@
     
     return Number(value);
   },
-  round:function (number,decimals=2) {
+  round:function (number) {
     number = this.toNumber(number);
-    let point = Math.pow(10, decimals)
+    let point = Math.pow(10, this.decimals)
     return Math.round(number * point)/point
   },
     // Add values to query string
@@ -110,9 +112,8 @@
           })
           let total_flour = newDoughWeight/(total_pct/100)
           Object.entries(ingredients).filter(([_,obj])=>obj.checked).forEach(([key,{type}])=>{
-            let decimal = 0
-            if(type==='salt'||type==='yeast')decimal=2
-            ingredients[key].weight=this.round(total_flour*ingredients[key].pct/100,decimal)
+            
+            ingredients[key].weight=this.round(total_flour*ingredients[key].pct/100)
           })
 
         
@@ -146,6 +147,8 @@
         }
        
       })
+      this.decimals=2
+      
       return this.round(100*totalWaterWeight/totalFlourWeight)
     },
     updateValues:function(ingredients){
@@ -175,16 +178,15 @@
               if(key.includes('flour_')){
                 recipes[key].pct = this.round(value/this.flourTotalWeight,0)*100
                 recipes[key].weight = this.round(value,0)
-                recipes[key].volume= BreadCalcultor.round(value/recipes[key].oneVolume)
+                recipes[key].volume= this.round(value/recipes[key].oneVolume)
               } 
               
               else 
               {
-                let decimal = 0
-                if(recipes[key].type==='salt'||recipes[key].type==='yeast')decimal=2
+                let decimal = recipes[key].type==='flour'||recipes[key].type==='fluit'?0:2
                 recipes[key].weight = this.round(this.flourTotalWeight*value/100,decimal)
                 recipes[key].pct=this.round(value,decimal)
-                recipes[key].volume= BreadCalcultor.round(recipes[key].weight/recipes[key].oneVolume)
+                recipes[key].volume= this.round(recipes[key].weight/recipes[key].oneVolume,2)
               }
             }
             
@@ -216,9 +218,12 @@
           recipes[key].pct = this.round(100*weight/this.flourTotalWeight,0)
          
         } else {
-          if(recipes[key].type==='salt'||recipes[key].type==='yeast')decimal=2
+          if(recipes[key].type==='salt'||recipes[key].type==='yeast'){
+            decimal=2
+          }
           this.updateQueryStringParam(key,recipes[key].pct)
           recipes[key].weight = this.round(this.flourTotalWeight*pct/100,decimal)
+         
           if (recipes[key].type==='starter') {
             this.updateQueryStringParam(`${key}_hydration`,recipes[key].hydration)
           }
@@ -317,6 +322,23 @@
     });
 
   },
+  hoursToFerment: function (ingredients,proofTemp=24) {
+    if (this.inoculation == 0||ingredients===undefined) return 0;
+    let f = (proofTemp * 9) / 5 + 32;
+    let inoculation=0
+    Object.entries(ingredients).filter(([_,obj])=>obj.checked && obj.type==='starter').forEach(([key,{pct}])=>{
+      inoculation += pct
+    })
+
+    let hours = Math.log(inoculation / 100 / 0.894) *
+    (-0.0000336713 * f ** 4 +
+      0.0105207916 * f ** 3 -
+      1.2495985607 * f ** 2 +
+      67.0024722564 * f -
+      1374.6540546564)
+
+    return this.round(hours,0)
+  }
 }
 
 export default BreadCalcultor

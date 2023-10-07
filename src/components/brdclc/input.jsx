@@ -1,14 +1,14 @@
 import React from 'react'
+import { DebounceInput } from 'react-debounce-input'
 
 
-
-
-const Input = ({ name,type, title, weight, pct, volume,hydration,unit, tabindex,handleOnChage }) => (
+const Input = ({ name,type, title, weight, pct, volume,hydration,unit, tabindex, handleOnChage }) => {
+  return (
   <>
-    <div className="input-group clearfix after:block after:content-[' '] after:clear-both ">
-      <div className="clearfix block m-0 p-0 after:block after:content-[' '] after:clear-both ">
+    <div className="  input-group clearfix after:block after:content-[' '] after:clear-both ">
+      <div className="clearfix block mt-2 p-0 after:block after:content-[' '] after:clear-both ">
         <label
-          className=" inline-block float-left   font-semibold mb-1 mt-2"
+          className=" inline-block float-left  text-gray-900"
           id={`${name}-label`}
           htmlFor={`${name}-grams`}
         >
@@ -16,19 +16,19 @@ const Input = ({ name,type, title, weight, pct, volume,hydration,unit, tabindex,
         </label>
         {type==='starter'&&<p
           title='含水量'
-          className=" ml-4 cursor-pointer inline-block font-normal text-xs text-gray-500 mb-1 mt-2 border border-solid border-gray-400 rounded-full py-1 px-2"
+          className=" cursor-pointer inline-block   text-gray-400  border border-solid border-gray-300 rounded-full py-1 px-2"
           id={`${name}-hydration`}
           onClick={()=>handleOnChage({name,hydration,type:'hyd'})}
         >{`${hydration} %`}</p>}
         
         <p
-          className=" cursor-pointer float-right inline-block font-normal text-xs text-gray-500 mb-1 mt-2 border border-solid border-gray-400 rounded-full py-1 px-2"
+          className=" cursor-pointer float-right inline-block  text-xs text-gray-400  border border-solid border-gray-300 rounded-full py-1 px-2"
           id={`${name}-volume`}
         >{`${volume} ${unit}`}</p>
       </div>
       <div className="input-wrapper float-left w-[49%] flex bg-white  ">
         <input
-          className="remove-arrow flex-grow min-w-[25%]  font-medium text-right  border-none"
+          className="remove-arrow flex-grow min-w-[20%]  text-xs   text-right  border-none outline-none  p-1 focus:outline-none  focus:border-none"
           tabIndex={tabindex + 1}
           id={name}
           type="number"
@@ -43,9 +43,10 @@ const Input = ({ name,type, title, weight, pct, volume,hydration,unit, tabindex,
         </p>
       </div>
       <div className="input-wrapper  float-right w-[49%] flex bg-white ">
-        <input
-          className="remove-arrow flex-grow min-w-[25%]  font-medium text-right  border-none outline-none p-2 pr-1 focus:outline-none  focus:border-none"
+        <DebounceInput
+          className="remove-arrow flex-grow min-w-[20%]  text-xs  text-right  border-none outline-none  p-1 focus:outline-none  focus:border-none"
           tabIndex={tabindex}
+          debounceTimeout={300}
           id={`${name}-grams`}
           type="number"
           name={`${name}-grams`}
@@ -58,6 +59,6 @@ const Input = ({ name,type, title, weight, pct, volume,hydration,unit, tabindex,
       </div>
     </div>
   </>
-);
+);}
 
 export default Input

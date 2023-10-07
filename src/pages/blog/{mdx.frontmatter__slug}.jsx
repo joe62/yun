@@ -12,14 +12,16 @@ const BlogPost = ({data,children}) => {
     <p>发表时间: {data.mdx.frontmatter.date}</p>
     <GatsbyImage
       image={image}
+      width={200}
        alt={data.mdx.frontmatter.hero_image_alt}
     />
-    <p>
+    {data.mdx.frontmatter.hero_image_credit_link&&<p>
       图片来源: {" "}
       <a href={data.mdx.frontmatter.hero_image_credit_link}>
         {data.mdx.frontmatter.hero_image_credit_text}
       </a>
-    </p>
+    </p>}
+    
     <article>{children}</article>
    </Layout>
   )
@@ -40,7 +42,7 @@ query ($id: String) {
       hero_image_credit_text
       hero_image{
         childImageSharp{
-          gatsbyImageData
+          gatsbyImageData(width:700,aspectRatio:1.5)
         }
       }
     }

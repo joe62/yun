@@ -1,14 +1,10 @@
+
 .remove-arrow::-webkit-inner-spin-button,
 .remove-arrow::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-  
-.remove-arrow{
-  
-
-}
-body {
+/* body {
     color: #34321C;
     font-family: "Avenir Next", "Avenir", sans-serif;
     width: 80%;
@@ -21,4 +17,4 @@ body {
     body {
         max-width: 380px;
     }
-}
+} */

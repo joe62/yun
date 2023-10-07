@@ -16,7 +16,7 @@ const IndexPage = () => {
       alt="fruit"
       src="../images/photo-1592187270271-9a4b84faa228.jpg"
     /> */}
-    <Brdclc/>
+    <Brdclc showTitle={true}/>
    </Layout>
   )
 }
